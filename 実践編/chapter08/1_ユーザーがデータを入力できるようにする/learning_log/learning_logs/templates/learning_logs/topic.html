@@ -1,0 +1,26 @@
+{% extends 'learning_logs/base.html' %}
+
+{% block content %}
+
+  <p>トピック: {{ topic }}</p>
+
+  <p>記事:</p>
+  <p>
+    <a href="{% url 'learning_logs:new_entry' topic.id %}">新しい記事を追加</a>
+  </p>
+
+  <ul>
+  {% for entry in entries %}
+    <li>
+      <p>{{ entry.date_added|date:'Y年m月d日 H:i' }}</p>
+      <p>{{ entry.text|linebreaks }}</p>
+      <p>
+        <a href="{% url 'learning_logs:edit_entry' entry.id %}">記事を編集</a>
+      </p>
+    </li>
+  {% empty %}
+    <li>このトピックにはまだ記事がありません。</li>
+  {% endfor %}
+  </ul>
+
+{% endblock content %}

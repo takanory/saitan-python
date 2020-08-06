@@ -1,0 +1,19 @@
+{% extends 'learning_logs/base.html' %}
+
+{% block content %}
+
+  <p>トピック: {{ topic }}</p>
+
+  <p>記事:</p>
+  <ul>
+  {% for entry in entries %}
+    <li>
+      <p>{{ entry.date_added|date:'Y年m月d日 H:i' }}</p>
+      <p>{{ entry.text|linebreaks }}</p>
+    </li>
+  {% empty %}
+    <li>このトピックにはまだ記事がありません。</li>
+  {% endfor %}
+  </ul>
+
+{% endblock content %}
