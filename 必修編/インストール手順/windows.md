@@ -16,6 +16,8 @@ https://python.org を開き、「Downloads」リンクの上にマウスカー�
 「Add Python 3.8 to PATH」オプションを選択することにより、システムに正しくパス
 が設定されます。
 
+![Windowsのインストール画面](win-install.png)
+
 ## Pythonをターミナル上で動かす
 
 ターミナル画面を開いて小文字でpythonと入力します。
