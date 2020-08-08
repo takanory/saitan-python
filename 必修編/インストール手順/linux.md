@@ -17,6 +17,29 @@ Type "help", "copyright", "credits" or "license" for more information.
 この表示は、初期状態でPCにPython 3.8.2がインストールされていることを示しています。
 表示を確認したら、 **Ctrl＋D** キーを押すか `exit()` を入力してPythonプロンプトを抜け、ターミナルのプロンプトに戻ります。
 
+## Pythonをインストールする
+
+Pythonは多くのLinuxシステムに最初からインストールされています。
+しかしデフォルトのバージョンがPython 3.6より古い場合は、最新バージョンをインストールする必要があります。
+次の手順は、aptコマンドを使用できる多くのシステムで動作します。
+
+deadsnakesと呼ばれるパッケージを使用することで、複数バージョンのPythonを簡単にインストールできます。
+次のコマンドを入力します。
+
+```
+$ sudo add-apt-repository ppa:deadsnakes/ppa
+$ sudo apt-get update
+$ sudo apt install python3.8
+```
+
+一連のコマンドにより、PCにPython 3.8がインストールされます。
+次のコマンドを実行してターミナル上でPython 3.8を実行できることを確認します。
+
+```
+$ python3.8
+>>>
+```
+
 ## Sublime Textをインストールする
 Linuxでは、Ubuntu Software CenterからSublime Textをインストールできます。
 メニューのUbuntu Softwareアイコンをクリックし、 **Sublime Text**を検索します。クリックしてインストールしたら、Sublime Textを起動します。
