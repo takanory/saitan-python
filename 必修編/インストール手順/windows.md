@@ -1,4 +1,4 @@
-# Windowsでのインストール手順
+# WindowsでのPythonインストール手順
 
 ## Pythonをインストールする
 
@@ -31,7 +31,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-対話モードを終了するには、 **Ctrl＋Z** キーと **Enter** キーを押すか、 `exit()`` と入力してください。
+対話モードを終了するには、 **Ctrl＋Z** キーと **Enter** キーを押すか、 `exit()` と入力してください。
 
 ## Sublime Textをインストールする
 
