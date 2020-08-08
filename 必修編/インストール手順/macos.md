@@ -23,6 +23,6 @@ Pythonの対話モードを終了する際には、 **Ctrl＋D** キーを押す
 
 ## Sublime Textをインストールする
 
-Sublime Textエディターをインストールするために、Webサイト(https://sublimetext.com/)からインストーラーをダウンロードします。
+Sublime Textエディターをインストールするために、Webサイト( https://sublimetext.com/ )からインストーラーをダウンロードします。
 「Download」リンクをクリックし、macOS用のインストーラーを探します。
 インストーラーをダウンロードしたら、そのファイルを開き、Sublime Textのアイコンをアプリケーションフォルダーにドラッグしてインストールします。

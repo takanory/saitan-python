@@ -35,6 +35,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ## Sublime Textをインストールする
 
-Sublime Textのインストーラーは、Webサイト(https://sublimetext.com/)からダウンロードできます。
+Sublime Textのインストーラーは、Webサイト( https://sublimetext.com/ )からダウンロードできます。
 「Download」リンクをクリックし、Windows用のインストーラーを探します。
 インストーラーをダウンロードしたら、実行してインストールします。設定はすべてデフォルトにします。
