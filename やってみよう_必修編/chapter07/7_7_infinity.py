@@ -1,4 +1,4 @@
-prompt = "何歳ですか? "
+prompt = "何歳ですか？ "
 
 active = True
 while active:

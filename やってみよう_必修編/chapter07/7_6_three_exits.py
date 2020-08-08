@@ -1,4 +1,4 @@
-prompt = "何歳ですか? "
+prompt = "何歳ですか？ "
 prompt += "\n終わったら '終了' と入力してください。: "
 
 active = True
