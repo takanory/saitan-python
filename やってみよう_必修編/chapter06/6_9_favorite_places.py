@@ -1,7 +1,7 @@
 favorite_places = {
     'eric': ['bear mountain', 'death valley', 'tierra del fuego'],
     'takanory': ['barcelona', 'billund', 'taipei'],
-    'zenich': ['hawaii', 'iceland'],
+    'zenich': ['san francisco', 'amsterdam', 'campbell river'],
     }
 
 for name, places in favorite_places.items():
