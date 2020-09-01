@@ -1,5 +1,6 @@
 # greet_user()関数の重複を解消したよりクリーンなバージョンの回答例
-# https://ehmatthes.github.io/pcc_2e/solutions/chapter_10/#10-13-verify-user で紹介されている
+# https://ehmatthes.github.io/pcc_2e/solutions/chapter_10/#10-13-verify-user
+# で紹介されている
 import json
 
 def get_stored_username():
